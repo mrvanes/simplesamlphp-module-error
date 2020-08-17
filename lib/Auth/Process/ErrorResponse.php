@@ -1,17 +1,18 @@
 <?php
 
 /**
- * Authproc filter for generating error responss
+ * Authproc filter for generating error responses
  *
  * @author Martin van Es
  * @package SimpleSAMLphp
  *
- * You just follow the 'source' => 'destination' schema. In this example user's  * cn will be the user's displayName.
  *
- *    5 => array(
+ *    0 => array(
  *        'class' => 'error:ErrorResponse',
- *        'error' => 'Error an error has occured',
- *         ),
+ *        'status' => SAML2\Constants::STATUS_RESPONDER,
+ *        'code' => 'Code',
+ *        'message' => 'Message'
+ *    ),
  *
  */
 

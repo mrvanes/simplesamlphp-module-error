@@ -1,7 +1,7 @@
 SimpleSAMLphp SAML ErrorResponse generator
 
 This package can be used to generate SAML ErrorResponses in a controlled way.
-Useful when testing SP Error handing.
+Useful when testing SP Error handling.
 
 Configuration
 
