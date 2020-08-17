@@ -1,0 +1,8 @@
+{
+    "name": "mrvanes/simplesamlphp-module-error",
+    "description": "A module to generate SAML Error Responses in a controlled way.",
+    "type": "simplesamlphp-module",
+    "require": {
+        "simplesamlphp/composer-module-installer": "~1.0"
+    }
+}
