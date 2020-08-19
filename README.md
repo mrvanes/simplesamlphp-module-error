@@ -10,7 +10,9 @@ Configuration
     0 => array(
        'class' => 'error:ErrorResponse',
        'status' => SAML2\Constants::STATUS_RESPONDER,
-       'code' => 'Foo Code',
+       'code' => 'FooCode',
        'message' => 'Foo Message'
     ),
 ```
+
+```code``` may not contain spaces. All spaces are removed.

@@ -58,7 +58,7 @@ class sspmod_error_Auth_Process_ErrorResponse extends SimpleSAML_Auth_Processing
 
         	throw new \sspmod_saml_Error(
 					$this->status,
-					$this->code,
+					str_replace(' ', '', $this->code),
 					$this->message
 		);
 
